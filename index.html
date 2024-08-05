@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Exercise Game</title>
+    <title>Juego de Ejercicios Aleatorios</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
@@ -25,36 +24,40 @@
             position: relative;
             z-index: 1;
         }
+        .exercise-image {
+            height: 10em;
+            width: auto;
+        }
     </style>
 </head>
 <body class="bg-gray-100 flex items-center justify-center h-screen">
     <video autoplay muted loop class="video-background">
         <source src="/public/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Tu navegador no soporta el video.
     </video>
     <audio autoplay loop>
-        <source src="your-music-file.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
+        <source src="/public//Belanova - Rosa Pastel  1 HORA  Letra.mp3" type="audio/mp3">
+        Tu navegador no soporta el audio.
     </audio>
-    <div class="bg-white p-6 rounded-lg shadow-lg text-center content">
-        <h1 class="text-2xl font-bold mb-4">Random Exercise Game</h1>
+    <div class="flex flex-col justify-center items-center bg-white p-6 rounded-lg shadow-lg text-center content">
+        <h1 class="text-2xl font-bold mb-4">Juego de Ejercicios Aleatorios</h1>
         <div class="mb-4">
-            <input type="text" id="player1" class="border p-2 rounded mr-2" placeholder="Player 1 Name">
-            <input type="text" id="player2" class="border p-2 rounded" placeholder="Player 2 Name">
+            <input type="text" id="player1" class="border p-2 rounded mr-2" placeholder="Nombre del Jugador 1">
+            <input type="text" id="player2" class="border p-2 rounded" placeholder="Nombre del Jugador 2">
         </div>
-        <p id="turnIndicator" class="text-lg mb-4">Player 1's Turn</p>
-        <button id="startGame" class="bg-blue-500 text-white px-4 py-2 rounded mb-4">Start Game</button>
-        <button id="generateExercise" class="bg-blue-500 text-white px-4 py-2 rounded mb-4 hidden">Generate Exercise</button>
+        <p id="turnIndicator" class="text-lg mb-4">Turno del Jugador 1</p>
+        <button id="startGame" class="bg-blue-500 text-white px-4 py-2 rounded mb-4">Comenzar</button>
+        <button id="generateExercise" class="bg-blue-500 text-white px-4 py-2 rounded mb-4 hidden">Generar Ejercicio</button>
         <div id="exerciseDisplay" class="mt-4 text-lg"></div>
-        <div id="exerciseImage" class="mt-4"></div>
+        <div id="exerciseImage" class="m-4"></div>
         <div id="actionButtons" class="mt-4 hidden">
-            <button id="continueBtn" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Continue</button>
-            <button id="giveUpBtn" class="bg-red-500 text-white px-4 py-2 rounded">Give Up</button>
+            <button id="continueBtn" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Continuar</button>
+            <button id="giveUpBtn" class="bg-red-500 text-white px-4 py-2 rounded">Rendirse</button>
         </div>
         <div id="result" class="mt-4 text-lg"></div>
         <div id="playerStats" class="mt-4">
-            <p id="player1Stats" class="text-lg">Player 1 Exercises: 0</p>
-            <p id="player2Stats" class="text-lg">Player 2 Exercises: 0</p>
+            <p id="player1Stats" class="text-lg">Ejercicios del Jugador 1: 0</p>
+            <p id="player2Stats" class="text-lg">Ejercicios del Jugador 2: 0</p>
         </div>
     </div>
     <script src="script.js"></script>
