@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de Ejercicios Aleatorios</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -32,20 +32,19 @@
 </head>
 <body class="bg-gray-100 flex items-center justify-center h-screen">
     <video autoplay muted loop class="video-background">
-        <source src="https://drive.google.com/file/d/1gWGI3pr-82bnMsDm2e61ikZJ6cRiW_wf/view?usp=drive_link" type="video/mp4">
+        <source src="./public/video.mp4" type="video/mp4">
         Tu navegador no soporta el video.
     </video>
-
+    
     <audio autoplay loop>
-        <source src="https://drive.google.com/uc?export=download&id=1gbe2g8gkw0NTyuAy0b1lPm_6MUSlXYVh" type="audio/mp3">
+        <source src="./public/audio.mp3" type="audio/mp3">
         Tu navegador no soporta el audio.
     </audio>
-
     <div class="flex flex-col justify-center items-center bg-white p-6 rounded-lg shadow-lg text-center content">
         <h1 class="text-2xl font-bold mb-4">Juego de Ejercicios Aleatorios</h1>
         <div class="mb-4">
-            <input type="text" id="player1" class="border p-2 rounded mr-2" placeholder="Nombre del Jugador 1" />
-            <input type="text" id="player2" class="border p-2 rounded" placeholder="Nombre del Jugador 2" />
+            <input type="text" id="player1" class="border p-2 rounded mr-2" placeholder="Nombre del Jugador 1">
+            <input type="text" id="player2" class="border p-2 rounded" placeholder="Nombre del Jugador 2">
         </div>
         <p id="turnIndicator" class="text-lg mb-4">Turno del Jugador 1</p>
         <button id="startGame" class="bg-blue-500 text-white px-4 py-2 rounded mb-4">Comenzar</button>

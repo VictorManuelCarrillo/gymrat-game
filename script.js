@@ -1,6 +1,7 @@
 const exercises = [
   { description: 'Lagartijas X 5', image: './public/img/lagartija.png' },
   { description: 'Lagartijas abiertas X 5', image: './public/img/lagartija_abierta.png' },
+{ description: 'fondos con silla', image: './public/img/fondos_con_silla.png' },
 ];
 
 let currentPlayer = 1;
