@@ -75,9 +75,34 @@
         }
         .modal-content {
             background-color: white;
-            padding: 20px;
+            padding: 40px;
             border-radius: 8px;
             text-align: center;
+            width: 80%;
+            max-width: 600px;
+            height: 70%; /* Ajustamos la altura */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .modal h2 {
+            font-size: 2em; /* Reducimos el tamaño de la fuente */
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px; /* Añadimos margen inferior */
+        }
+        .modal button {
+            font-size: 1.5em;
+            padding: 0.5em 1em;
+        }
+        .confetti-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 30; /* Aumentamos el z-index */
         }
     </style>
 </head>
@@ -88,13 +113,13 @@
     </video>
 
     <audio autoplay loop>
-        <source src="./public/audio.mp3" type="audio/mp3">
+        <source src="https://drive.google.com/uc?export=download&id=1A3emYC9mW-oY-dSuk5H25wJzpCPLo_5D" type="audio/mp3">
         Tu navegador no soporta el audio.
     </audio>
 
-    <nav class="w-full flex justify-end bg-gray-800 p-4">
-        <ul class="flex justify-center space-x-4">
-            <li><a href="#" class="text-white">Inicio</a></li>
+    <nav class="w-full bg-gray-800 p-4">
+        <ul class="flex justify-end space-x-4 nav-links">
+            <li><a href="/" class="text-white">Inicio</a></li>
             <li><a href="#" class="text-white">Instrucciones</a></li>
             <li><a href="#" class="text-white">Docs</a></li>
         </ul>
@@ -132,11 +157,14 @@
 
     <div id="winnerModal" class="modal">
         <div class="modal-content">
-            <h2 id="winnerText" class="text-2xl font-bold mb-4"></h2>
+            <h2 id="winnerText"></h2>
             <button id="closeModal" class="bg-blue-500 text-white px-4 py-2 rounded">Cerrar</button>
         </div>
     </div>
 
+    <div id="confetti-container" class="confetti-container"></div>
+
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>
