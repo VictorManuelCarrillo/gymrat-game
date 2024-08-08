@@ -1,8 +1,8 @@
 const exercises = [
-  { description: 'Lagartijas X 5', image: './public/img/lagartija.png' },
-  { description: 'Lagartijas abiertas X 5', image: './public/img/lagartija_abierta.png' },
-  { description: 'Fondos con silla', image: './public/img/fondos_con_silla.png' },
-  { description: 'Fondos con silla', image: './public/img/fondos_con_silla.png' },
+  { description: 'Lagartijas X 5', image: './public/ejercicios/lagartija.png' },
+  { description: 'Lagartijas abiertas X 5', image: './public/ejercicios/lagartija_abierta.png' },
+  { description: 'Fondos con silla', image: './public/ejercicios/fondos_con_silla.png' },
+  { description: 'Fondos con silla', image: './public/ejercicios/fondos_con_silla.png' },
 ];
 
 let currentPlayer = 1;
@@ -79,6 +79,11 @@ function resetGame() {
   document.getElementById('generateExercise').classList.add('hidden');
   document.getElementById('playerStats').classList.add('hidden');
   document.getElementById('endGame').classList.add('hidden');
+  document.getElementById('result').innerText = ''; // Clear the result text
+  clearInterval(timerInterval);
+  clearTimeout(timerTimeout);
+  document.getElementById('timer').classList.add('hidden');
+  document.getElementById('timerText').innerText = '01:00';
   updateStats();
 }
 
@@ -123,6 +128,6 @@ function endGame() {
   clearInterval(timerInterval);
   clearTimeout(timerTimeout);
   const winner = exercisesDone[0] > exercisesDone[1] ? players[0] : players[1];
-  document.getElementById('winnerText').innerText = `¡Eres el más fuerte ${winner}!!!`;
+  document.getElementById('winnerText').innerText = `¡Eres el más fuerte, ${winner}!!!`;
   document.getElementById('winnerModal').style.display = 'flex';
 }
