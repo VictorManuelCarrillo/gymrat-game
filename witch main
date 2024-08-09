@@ -1,0 +1,194 @@
+[33mcommit b1e8fd893bccb9e901ad28d204ac8007c9951cb5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mb1e8fd893bccb9e901ad28d204ac8007c9951cb5[m[33m)[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Thu Aug 8 07:42:53 2024 -0600
+
+    added new exercises
+
+[33mcommit 7d0403a25fd3d34c3ffe0c1d265d2163f9203615[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 21:05:54 2024 -0600
+
+    updated game
+
+[33mcommit fd2bdcf2d21dff21a6fa0d932203069b3a81b45e[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 18:56:40 2024 -0600
+
+    re structured game
+    git push origin main
+
+[33mcommit 469fc864240193ad4ff6db7b56b86503665fea12[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 16:19:23 2024 -0600
+
+     .
+
+[33mcommit e0ead57f5d834bd3cf172b64343a74dca23c152d[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 16:15:25 2024 -0600
+
+    test2
+
+[33mcommit 20cf8998f190309899a06bc1810a9a88b30a5e7f[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 16:08:44 2024 -0600
+
+    .
+
+[33mcommit a5525f3fd963fbd5c3d2b8dbdc28cedd033643ca[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 15:54:49 2024 -0600
+
+    test
+
+[33mcommit d7e9ca5428ee7cb2695f74a897f43b5b7a0159cc[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:52:37 2024 -0600
+
+    .
+
+[33mcommit 67184e6557da6cec7f394f47cb129b734cc0905f[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:43:48 2024 -0600
+
+    .
+
+[33mcommit b357c59401e13b2063e07bf7390363fa9b8278d3[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:36:23 2024 -0600
+
+    trying to fix media
+
+[33mcommit ec27bb68d312d407abb9361f41b6b16801e64b5e[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:33:51 2024 -0600
+
+    Agregar archivos grandes usando Git LFS
+
+[33mcommit bc0598636c85b301859cd7137379b2cf3321ba14[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:03:40 2024 -0600
+
+    added lazy loading
+
+[33mcommit 3a970498e0c0c1e47edc74801e31deb755302dff[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 12:00:44 2024 -0600
+
+    added images
+
+[33mcommit ebe5176689e01b58d97c9b387246c75219e35ee5[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:54:20 2024 -0600
+
+    added drive
+
+[33mcommit ba7a8f8c7080bbb983856995a8c1433159d20e2c[m
+Author: gatitto079 <100444807+VictorManuelCarrillo@users.noreply.github.com>
+Date:   Wed Aug 7 11:43:43 2024 -0600
+
+    Delete public/img directory
+    
+    d
+
+[33mcommit daeaf14a7b7d6df9ddaf3b4a861556e9fc3beb60[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:42:40 2024 -0600
+
+    .
+
+[33mcommit 5ea421e4aee01abc8be1537498036c7756a666fc[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:41:43 2024 -0600
+
+    deleted attributes
+
+[33mcommit 70e944d3ce2bd5cb2fc2d0dc19af12df6be993d1[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:40:13 2024 -0600
+
+    fixed media
+
+[33mcommit 561a57710c756cf7c6031535400688a5d949ddb2[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:38:15 2024 -0600
+
+    second commit
+
+[33mcommit 537f5eb3cf5077089d698b6eb828d37de6d22f12[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:37:10 2024 -0600
+
+    first commit
+
+[33mcommit 20b03fe249d2e0a133a8a73442e746e57871940b[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Wed Aug 7 11:22:41 2024 -0600
+
+    fixed images
+
+[33mcommit 55e1bdb96b6af06d66da7603460edb8ccdb4ed0e[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:27:02 2024 -0600
+
+    .
+
+[33mcommit e33fe8d542e573a08551b27cc646c4be1e317244[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:25:19 2024 -0600
+
+    Agregar archivos grandes usando Git LFS
+
+[33mcommit 13d39d7b1c1d9526f9013b8f6533ef36be702705[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:23:29 2024 -0600
+
+    refixed media paths
+
+[33mcommit 8a76c3ceb36d17c865a9b6274d796a4b27a61d39[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:20:10 2024 -0600
+
+    resolved path media
+
+[33mcommit d4957a9ea921dbd28835f16b70ecfb581972ba00[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:16:26 2024 -0600
+
+    Agregar archivo de música grande usando Git LFS
+
+[33mcommit 578cb5fc6ef9361d755d41a7c92abcef07973153[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Aug 5 00:02:13 2024 -0600
+
+    fixed images
+
+[33mcommit b5014f3d61cbb7db4ef7666c1466eaa50a8df17f[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Jul 29 17:46:12 2024 -0600
+
+    added sound
+
+[33mcommit 54d445d14f5c7b3e5e868430239eb2c79ecd2cbc[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Mon Jul 29 16:41:03 2024 -0600
+
+    added video and song
+
+[33mcommit 570621cab0da5a9bddc1959c21a921911b83bce7[m
+Author: gatitto079 <100444807+VictorManuelCarrillo@users.noreply.github.com>
+Date:   Sat Jul 27 23:57:27 2024 -0600
+
+    Delete CNAME
+
+[33mcommit 1ee9e9c1314e114ed2d98bc8f0b53b0bea66f427[m
+Author: gatitto079 <100444807+VictorManuelCarrillo@users.noreply.github.com>
+Date:   Sat Jul 27 23:57:09 2024 -0600
+
+    Create CNAME
+
+[33mcommit 88b0ed7ffd35e3107c78503a687c469432b93205[m
+Author: victor carrillo <gatitto079@gmail.com>
+Date:   Sat Jul 27 23:53:00 2024 -0600
+
+    upload
